@@ -1,7 +1,7 @@
 from datetime import datetime
 
 def mostrar_data_hora():
-    agora = 0 #REMOVA O 0 E COMPLETE A VARIÁVEL PARA RETORNAR A DATA E HORA ATUAL
+    agora =  datetime.datetime.now #REMOVA O 0 E COMPLETE A VARIÁVEL PARA RETORNAR A DATA E HORA ATUAL
     print("Data e Hora atuais:")
     print(agora)
     print("Formato: DD/MM/AAAA HH:MM:SS")
